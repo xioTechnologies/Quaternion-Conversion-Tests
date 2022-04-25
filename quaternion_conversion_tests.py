@@ -57,7 +57,7 @@ def to_matrix_euclideanspace(q):
 
 
 def to_matrix_fusion_installed(q):
-    # https://libraries.io/pypi/imufusion
+    # https://pypi.org/project/imufusion
 
     return imufusion.Quaternion(numpy.array([q[0], q[1], q[2], q[3]])).to_matrix().flatten()
 
@@ -170,7 +170,7 @@ def to_euler_fusion_v1_0_1(q):
 
 
 def to_euler_fusion_installed(q):
-    # https://libraries.io/pypi/imufusion
+    # https://pypi.org/project/imufusion
 
     return imufusion.Quaternion(numpy.array([q[0], q[1], q[2], q[3]])).to_euler()
 
